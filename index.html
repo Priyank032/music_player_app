@@ -20,7 +20,7 @@
             <div class="img_container">
                 <img src="images/song1.jpg" alt="">
             </div>
-            <audio src="music\song1.mpeg"></audio>
+            <audio src="music\song1.mp3"></audio>
             <!-- progress -->
             <div class="progressbar_container" id="progress_container">
                 <div class="progress_duration_meter">
@@ -105,7 +105,7 @@
         const loadsong = (songs) => {
             title.textContent = songs.title;
             artist.textContent = songs.artist;
-            music.src = "music/" + songs.name + ".mpeg";
+            music.src = "music/" + songs.name + ".mp3";
             img.src = "images/" + songs.name + ".jpg";
         };
         // loadsong(songs[1]);
